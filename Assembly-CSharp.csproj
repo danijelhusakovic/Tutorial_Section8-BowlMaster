@@ -46,10 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Ball.cs" />
-     <Compile Include="Assets\CameraControl.cs" />
      <Compile Include="Assets\START Pack\Scripts\ActionMaster2.cs" />
      <Compile Include="Assets\START Pack\Scripts\OurScoreDisplayTest1.cs" />
+     <Compile Include="Assets\Scripts\Ball.cs" />
+     <Compile Include="Assets\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\DragLaunch.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity 5.6.6f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
