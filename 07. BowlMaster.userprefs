@@ -1,9 +1,8 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DragLaunch.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PinSetter.cs">
     <Files>
-      <File FileName="Assets\Scripts\Ball.cs" Line="8" Column="8" />
-      <File FileName="Assets\Scripts\DragLaunch.cs" Line="23" Column="7" />
+      <File FileName="Assets\Scripts\PinSetter.cs" Line="17" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
