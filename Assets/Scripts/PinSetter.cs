@@ -7,9 +7,11 @@ public class PinSetter : MonoBehaviour {
 
 	public Text standingDisplay;
 
+	private bool ballEnteredBox;
+
 	// Use this for initialization
 	void Start () {
-		
+		ballEnteredBox = false;
 	}
 	
 	// Update is called once per frame
@@ -28,5 +30,18 @@ public class PinSetter : MonoBehaviour {
 
 		return standing;
 
+	}
+
+	void OnTriggerEnter(Collider collider){
+		if(collider.GetComponent<Ball>()){
+			standingDisplay.color = Color.red;
+			ballEnteredBox = true;
+		}
+	}
+
+	void OnTriggerExit(Collider collider){
+		if(collider.gameObject.GetComponent<Pin>()){
+			Destroy (collider.gameObject);
+		}
 	}
 }
