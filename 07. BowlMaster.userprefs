@@ -1,9 +1,11 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Pin.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraControl.cs">
     <Files>
-      <File FileName="Assets\Scripts\PinSetter.cs" Line="43" Column="38" />
+      <File FileName="Assets\Scripts\Ball.cs" Line="38" Column="44" />
+      <File FileName="Assets\Scripts\PinSetter.cs" Line="43" Column="1" />
       <File FileName="Assets\Scripts\Pin.cs" Line="23" Column="124" />
+      <File FileName="Assets\Scripts\CameraControl.cs" Line="18" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

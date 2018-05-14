@@ -35,7 +35,6 @@ public class DragLaunch : MonoBehaviour {
 
 	public void MoveStart(float amount){
 		if( ! ball.launched){
-			print ("Ball moved " + amount);
 			ball.transform.position += new Vector3 (amount, 0f, 0f);
 			if(ball.transform.position.x < -30){
 				ball.transform.position = new Vector3 (-30f ,ball.transform.position.y, ball.transform.position.z);
