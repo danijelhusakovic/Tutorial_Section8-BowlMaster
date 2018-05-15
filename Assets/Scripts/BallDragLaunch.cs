@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof (Ball))]
-public class DragLaunch : MonoBehaviour {
+public class BallDragLaunch : MonoBehaviour {
 
 	private Ball ball;
 	private Vector3 dragStart, dragEnd;
-	private float starTime, endTime;
+	private float startTime, endTime;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class DragLaunch : MonoBehaviour {
 
 	public void DragStart (){
 		dragStart = Input.mousePosition;
-		starTime = Time.time;
+		startTime = Time.time;
 	}
 
 	public void DragEnd (){
@@ -25,7 +25,7 @@ public class DragLaunch : MonoBehaviour {
 			endTime = Time.time;
 			dragEnd = Input.mousePosition;
 			Vector3 s = dragEnd - dragStart;
-			float t = endTime - starTime;
+			float t = endTime - startTime;
 			Vector3 v = new Vector3 (s.x / t, 0f, s.y / t); // y is in the z. because we drag up, but the ball moves 'in'. 
 			// else, the ball would move up to the sky. (and it did while programming)
 			ball.Launch (v);
