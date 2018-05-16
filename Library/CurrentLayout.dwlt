@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 646
-  m_MinSize: {x: 504, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 508, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 50
 --- !u!114 &3
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 646
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 16}
@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 282
     height: 375
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -208,7 +208,7 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 646
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 51
@@ -232,8 +232,8 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 375
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 52
 --- !u!114 &11
@@ -254,8 +254,8 @@ MonoBehaviour:
     y: 0
     width: 807
     height: 375
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -357,7 +357,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Will/Documents/repos/07. BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.0487938
+      duration: 0.1245351
       messages: 
       output: 
       stacktrace: 
@@ -368,7 +368,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.0348111
+      duration: 0.1136969
       messages: 
       output: 
       stacktrace: 
@@ -379,7 +379,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0065799
+      duration: 0.0224393
       messages: 
       output: 
       stacktrace: 
@@ -390,14 +390,36 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.005811
+      duration: 0.0136686
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T01OneStrikeReturnsEndTurn (0.006s)
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T02Bowl8ReturnsTidy]'
+      name: T02Bowl8ReturnsTidy
+      fullName: ActionMasterTest.T02Bowl8ReturnsTidy
+      resultStatus: 1
+      duration: 0.0090141
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T03Bowl28SpareReturnsEndTurn]'
+      name: T03Bowl28SpareReturnsEndTurn
+      fullName: ActionMasterTest.T03Bowl28SpareReturnsEndTurn
+      resultStatus: 1
+      duration: 0.0124539
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T01OneStrikeReturnsEndTurn (0.014s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -545,9 +567,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60390000
-    m_LastClickedID: 14688
-    m_ExpandedIDs: 00000000b6240000422500005425000000ca9a3bffffff7f
+    m_SelectedIDs: f2240000
+    m_LastClickedID: 9458
+    m_ExpandedIDs: 00000000ba240000482500005a25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -575,7 +597,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b62400004225000054250000
+    m_ExpandedIDs: 00000000ba240000482500005a250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -693,7 +715,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e293ffff3c97ffff169dfffff0a0fffff2abffffe4fbffff000000007a260000
+    m_ExpandedIDs: 20c9ffffd2cbffffa0cdffffa4cfffffe8d2ffffa6d5ffffe0d8ffffa8dafffffcdcffff40dfffffd6e1ffffdae4ffff04e7fffface9ffff2aeeffff9ef4ffff7ef7ffff6af9ffffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
