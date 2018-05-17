@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ActionMaster.cs">
     <Files>
-      <File FileName="Assets\Editor\ActionMasterTest.cs" Line="78" Column="48" />
-      <File FileName="Assets\Scripts\ActionMaster.cs" Line="21" Column="37" />
+      <File FileName="Assets\Editor\ActionMasterTest.cs" Line="116" Column="27" />
+      <File FileName="Assets\Scripts\ActionMaster.cs" Line="22" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 508, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 118
+  controlID: 50
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -357,7 +357,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Will/Documents/repos/07. BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.2077558
+      duration: 0.2968271
       messages: 
       output: 
       stacktrace: 
@@ -368,7 +368,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.1994659
+      duration: 0.2884256
       messages: 
       output: 
       stacktrace: 
@@ -379,7 +379,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0213753
+      duration: 0.0221884
       messages: 
       output: 
       stacktrace: 
@@ -390,7 +390,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.013454
+      duration: 0.010396
       messages: 
       output: 
       stacktrace: 
@@ -401,7 +401,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0116018
+      duration: 0.0122283
       messages: 
       output: 
       stacktrace: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       name: T03Bowl28SpareReturnsEndTurn
       fullName: ActionMasterTest.T03Bowl28SpareReturnsEndTurn
       resultStatus: 1
-      duration: 0.0091587
+      duration: 0.012106
       messages: 
       output: 
       stacktrace: 
@@ -423,7 +423,7 @@ MonoBehaviour:
       name: T04CheckResetAtStrikeInLastFrame
       fullName: ActionMasterTest.T04CheckResetAtStrikeInLastFrame
       resultStatus: 1
-      duration: 0.0123425
+      duration: 0.0123131
       messages: 
       output: 
       stacktrace: 
@@ -434,7 +434,7 @@ MonoBehaviour:
       name: T05CheckResetAtSpareInLastFrame
       fullName: ActionMasterTest.T05CheckResetAtSpareInLastFrame
       resultStatus: 1
-      duration: 0.0122725
+      duration: 0.0122194
       messages: 
       output: 
       stacktrace: 
@@ -445,7 +445,7 @@ MonoBehaviour:
       name: T06YoutubeRollsEndInEndGame
       fullName: ActionMasterTest.T06YoutubeRollsEndInEndGame
       resultStatus: 1
-      duration: 0.0119222
+      duration: 0.0091248
       messages: 
       output: 
       stacktrace: 
@@ -456,19 +456,63 @@ MonoBehaviour:
       name: T07GameEndsAtBowl20
       fullName: ActionMasterTest.T07GameEndsAtBowl20
       resultStatus: 1
-      duration: 0.0123912
+      duration: 0.0123118
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T07GameEndsAtBowl20 (0.012s)
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T08DarylBowl20Test]'
+      name: T08DarylBowl20Test
+      fullName: ActionMasterTest.T08DarylBowl20Test
+      resultStatus: 1
+      duration: 0.0123773
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T09BensBowl20Test]'
+      name: T09BensBowl20Test
+      fullName: ActionMasterTest.T09BensBowl20Test
+      resultStatus: 1
+      duration: 0.0124532
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T10NathanBowlIndexTest]'
+      name: T10NathanBowlIndexTest
+      fullName: ActionMasterTest.T10NathanBowlIndexTest
+      resultStatus: 1
+      duration: 0.0119905
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T11DondiTenthFrameTurkey]'
+      name: T11DondiTenthFrameTurkey
+      fullName: ActionMasterTest.T11DondiTenthFrameTurkey
+      resultStatus: 1
+      duration: 0.009368
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T10NathanBowlIndexTest (0.012s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 631f2d85
-      m_LastClickedID: -2060640413
+      m_SelectedIDs: c47aac09
+      m_LastClickedID: 162298564
       m_ExpandedIDs: 45f3aaa785565103ef90d43e9dd95f51ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -759,7 +803,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 56c8ffff06cbfffffacdffff4cd1ffffced3ffff76d8ffffa4ddffff2ae1ffffe2e4ffff4ce8ffff98ecffff7af0fffff2f2ffffe8f6ffff62f9ffffe4fbffff00000000
+    m_ExpandedIDs: f49effffe4a2ffff80a6ffffe4acffffcab2ffff82b7ffff92baffff8abeffff7cc1ffff38c4ffffbec7ffff0accffffb0d2ffff28d5ffff44d8ffff1adcffff62dfffff2ceaffff7cf0ffff9cf4ffff70f8ffffe2fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -877,9 +921,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 284
+    x: 270
     y: 91
-    width: 803
+    width: 764
     height: 354
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -889,8 +933,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -401.5
-    m_HBaseRangeMax: 401.5
+    m_HBaseRangeMin: -382
+    m_HBaseRangeMax: 382
     m_VBaseRangeMin: -168.5
     m_VBaseRangeMax: 168.5
     m_HAllowExceedBaseRangeMin: 1
@@ -909,25 +953,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 803
+      width: 764
       height: 337
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 401.5, y: 168.5}
+    m_Translation: {x: 382, y: 168.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -401.5
+      x: -382
       y: -168.5
-      width: 803
+      width: 764
       height: 337
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 803, y: 354}
+  m_LastWindowPixelSize: {x: 764, y: 354}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
