@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 508, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 118
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -60,9 +60,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1089
+    x: 1036
     y: 0
-    width: 277
+    width: 330
     height: 646
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
@@ -88,7 +88,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 282
+    width: 268
     height: 375
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -113,7 +113,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 375
-    width: 1089
+    width: 1036
     height: 271
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -206,7 +206,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1089
+    width: 1036
     height: 646
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
@@ -230,7 +230,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1089
+    width: 1036
     height: 375
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
@@ -250,9 +250,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 282
+    x: 268
     y: 0
-    width: 807
+    width: 768
     height: 375
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
@@ -284,9 +284,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1091
+    x: 1038
     y: 91
-    width: 275
+    width: 328
     height: 625
   m_IsSceneBased: 0
   m_TestTypeToolbarIndex: 1
@@ -357,7 +357,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Will/Documents/repos/07. BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.1245351
+      duration: 0.2077558
       messages: 
       output: 
       stacktrace: 
@@ -368,7 +368,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.1136969
+      duration: 0.1994659
       messages: 
       output: 
       stacktrace: 
@@ -379,7 +379,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0224393
+      duration: 0.0213753
       messages: 
       output: 
       stacktrace: 
@@ -390,7 +390,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.0136686
+      duration: 0.013454
       messages: 
       output: 
       stacktrace: 
@@ -401,7 +401,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0090141
+      duration: 0.0116018
       messages: 
       output: 
       stacktrace: 
@@ -412,19 +412,63 @@ MonoBehaviour:
       name: T03Bowl28SpareReturnsEndTurn
       fullName: ActionMasterTest.T03Bowl28SpareReturnsEndTurn
       resultStatus: 1
-      duration: 0.0124539
+      duration: 0.0091587
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T01OneStrikeReturnsEndTurn (0.014s)
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T04CheckResetAtStrikeInLastFrame]'
+      name: T04CheckResetAtStrikeInLastFrame
+      fullName: ActionMasterTest.T04CheckResetAtStrikeInLastFrame
+      resultStatus: 1
+      duration: 0.0123425
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T05CheckResetAtSpareInLastFrame]'
+      name: T05CheckResetAtSpareInLastFrame
+      fullName: ActionMasterTest.T05CheckResetAtSpareInLastFrame
+      resultStatus: 1
+      duration: 0.0122725
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T06YoutubeRollsEndInEndGame]'
+      name: T06YoutubeRollsEndInEndGame
+      fullName: ActionMasterTest.T06YoutubeRollsEndInEndGame
+      resultStatus: 1
+      duration: 0.0119222
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T07GameEndsAtBowl20]'
+      name: T07GameEndsAtBowl20
+      fullName: ActionMasterTest.T07GameEndsAtBowl20
+      resultStatus: 1
+      duration: 0.0123912
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T07GameEndsAtBowl20 (0.012s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 47cec62f
-      m_LastClickedID: 801558087
+      m_SelectedIDs: 631f2d85
+      m_LastClickedID: -2060640413
       m_ExpandedIDs: 45f3aaa785565103ef90d43e9dd95f51ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -544,7 +588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 466
-    width: 1087
+    width: 1034
     height: 250
   m_SearchFilter:
     m_NameFilter: 
@@ -624,7 +668,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 0625000082f0ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -709,13 +753,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 91
-    width: 280
+    width: 266
     height: 354
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 20c9ffffd2cbffffa0cdffffa4cfffffe8d2ffffa6d5ffffe0d8ffffa8dafffffcdcffff40dfffffd6e1ffffdae4ffff04e7fffface9ffff2aeeffff9ef4ffff7ef7ffff6af9ffffe4fbffff00000000
+    m_ExpandedIDs: 56c8ffff06cbfffffacdffff4cd1ffffced3ffff76d8ffffa4ddffff2ae1ffffe2e4ffff4ce8ffff98ecffff7af0fffff2f2ffffe8f6ffff62f9ffffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -759,9 +803,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 284
+    x: 270
     y: 91
-    width: 803
+    width: 764
     height: 354
   m_SceneLighting: 1
   lastFramingTime: 2315.840236155683

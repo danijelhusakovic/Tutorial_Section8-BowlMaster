@@ -1,9 +1,9 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\ActionMasterTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ActionMaster.cs">
     <Files>
-      <File FileName="Assets\Editor\ActionMasterTest.cs" Line="39" Column="2" />
-      <File FileName="Assets\Scripts\ActionMaster.cs" Line="28" Column="26" />
+      <File FileName="Assets\Editor\ActionMasterTest.cs" Line="78" Column="48" />
+      <File FileName="Assets\Scripts\ActionMaster.cs" Line="21" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
