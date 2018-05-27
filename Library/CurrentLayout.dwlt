@@ -123,7 +123,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -357,7 +357,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Will/Documents/repos/07. BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.2968271
+      duration: 0.3156953
       messages: 
       output: 
       stacktrace: 
@@ -368,7 +368,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.2884256
+      duration: 0.3069556
       messages: 
       output: 
       stacktrace: 
@@ -379,7 +379,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0221884
+      duration: 0.0206468
       messages: 
       output: 
       stacktrace: 
@@ -390,7 +390,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.010396
+      duration: 0.0137893
       messages: 
       output: 
       stacktrace: 
@@ -401,7 +401,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0122283
+      duration: 0.0121328
       messages: 
       output: 
       stacktrace: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       name: T03Bowl28SpareReturnsEndTurn
       fullName: ActionMasterTest.T03Bowl28SpareReturnsEndTurn
       resultStatus: 1
-      duration: 0.012106
+      duration: 0.0085885
       messages: 
       output: 
       stacktrace: 
@@ -423,7 +423,7 @@ MonoBehaviour:
       name: T04CheckResetAtStrikeInLastFrame
       fullName: ActionMasterTest.T04CheckResetAtStrikeInLastFrame
       resultStatus: 1
-      duration: 0.0123131
+      duration: 0.0090574
       messages: 
       output: 
       stacktrace: 
@@ -434,7 +434,7 @@ MonoBehaviour:
       name: T05CheckResetAtSpareInLastFrame
       fullName: ActionMasterTest.T05CheckResetAtSpareInLastFrame
       resultStatus: 1
-      duration: 0.0122194
+      duration: 0.0123836
       messages: 
       output: 
       stacktrace: 
@@ -445,7 +445,7 @@ MonoBehaviour:
       name: T06YoutubeRollsEndInEndGame
       fullName: ActionMasterTest.T06YoutubeRollsEndInEndGame
       resultStatus: 1
-      duration: 0.0091248
+      duration: 0.0114657
       messages: 
       output: 
       stacktrace: 
@@ -456,7 +456,7 @@ MonoBehaviour:
       name: T07GameEndsAtBowl20
       fullName: ActionMasterTest.T07GameEndsAtBowl20
       resultStatus: 1
-      duration: 0.0123118
+      duration: 0.0090713
       messages: 
       output: 
       stacktrace: 
@@ -467,7 +467,7 @@ MonoBehaviour:
       name: T08DarylBowl20Test
       fullName: ActionMasterTest.T08DarylBowl20Test
       resultStatus: 1
-      duration: 0.0123773
+      duration: 0.0096496
       messages: 
       output: 
       stacktrace: 
@@ -478,7 +478,7 @@ MonoBehaviour:
       name: T09BensBowl20Test
       fullName: ActionMasterTest.T09BensBowl20Test
       resultStatus: 1
-      duration: 0.0124532
+      duration: 0.0094408
       messages: 
       output: 
       stacktrace: 
@@ -489,7 +489,7 @@ MonoBehaviour:
       name: T10NathanBowlIndexTest
       fullName: ActionMasterTest.T10NathanBowlIndexTest
       resultStatus: 1
-      duration: 0.0119905
+      duration: 0.0091458
       messages: 
       output: 
       stacktrace: 
@@ -500,14 +500,25 @@ MonoBehaviour:
       name: T11DondiTenthFrameTurkey
       fullName: ActionMasterTest.T11DondiTenthFrameTurkey
       resultStatus: 1
-      duration: 0.009368
+      duration: 0.0118415
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T10NathanBowlIndexTest (0.012s)
+    - id: '[07. BowlMaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T12ZeroOneGivesEndTurn]'
+      name: T12ZeroOneGivesEndTurn
+      fullName: ActionMasterTest.T12ZeroOneGivesEndTurn
+      resultStatus: 1
+      duration: 0.0076648
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T10NathanBowlIndexTest (0.009s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -555,7 +566,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 466
-    width: 1087
+    width: 1034
     height: 250
   m_ViewPositions:
     m_KeySerializationHelper:
@@ -563,7 +574,7 @@ MonoBehaviour:
     - {fileID: 1107406702395073940, guid: 5193f84f2ecc1c44da859eded9b28bda, type: 2}
     - {fileID: 1107260910196034618, guid: 5193f84f2ecc1c44da859eded9b28bda, type: 2}
     m_ValueSerializationHelper:
-    - {x: 546.80005, y: 65}
+    - {x: 680.4, y: 130}
     - {x: 736.4, y: 154}
     - {x: 740.4, y: 171.5}
   m_PreviewAnimator: {fileID: 0}
@@ -602,9 +613,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 284
+    x: 270
     y: 91
-    width: 803
+    width: 764
     height: 354
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
@@ -645,18 +656,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Editor
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Editor
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Will\Documents\repos\07. BowlMaster
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f2240000
-    m_LastClickedID: 9458
+    scrollPos: {x: 0, y: 11}
+    m_SelectedIDs: f4240000
+    m_LastClickedID: 9460
     m_ExpandedIDs: 00000000ba240000482500005a25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -712,7 +723,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 0625000082f0ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -762,9 +773,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1091
+    x: 1038
     y: 91
-    width: 275
+    width: 328
     height: 625
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
@@ -801,9 +812,9 @@ MonoBehaviour:
     height: 354
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 9c500000
     m_LastClickedID: 0
-    m_ExpandedIDs: f49effffe4a2ffff80a6ffffe4acffffcab2ffff82b7ffff92baffff8abeffff7cc1ffff38c4ffffbec7ffff0accffffb0d2ffff28d5ffff44d8ffff1adcffff62dfffff2ceaffff7cf0ffff9cf4ffff70f8ffffe2fbffff00000000
+    m_ExpandedIDs: 923dffffe4fbffff0000000004260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -857,14 +868,14 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -204.89563, y: 77.62851, z: 1760.9606}
+    m_Target: {x: 1927.8422, y: -40.212727, z: 33.478996}
     speed: 2
-    m_Value: {x: -204.89563, y: 77.62851, z: 1760.9606}
+    m_Value: {x: 1927.8422, y: -40.212727, z: 33.478996}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
     showFog: 1
-    showMaterialUpdate: 0
+    showMaterialUpdate: 1
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
@@ -882,18 +893,18 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.16268483, y: -0.6726873, z: 0.15524374, w: -0.704929}
+    m_Target: {x: 0.011915176, y: 0.70530885, z: -0.01185768, w: 0.7087009}
     speed: 2
-    m_Value: {x: 0.16268483, y: 0.67268735, z: -0.15524375, w: 0.704929}
+    m_Value: {x: 0.011915176, y: 0.70530885, z: -0.01185768, w: 0.7087009}
   m_Size:
-    m_Target: 141.24396
+    m_Target: 1995.021
     speed: 2
-    m_Value: 141.24396
+    m_Value: 1995.021
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
-  m_LastSceneViewRotation: {x: -0.06916209, y: 0.051450185, z: -0.0035717424, w: -0.99627143}
+  m_LastSceneViewRotation: {x: 0.16268483, y: 0.67268735, z: -0.15524375, w: 0.704929}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -999,5 +1010,5 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 466
-    width: 1087
+    width: 1034
     height: 250
