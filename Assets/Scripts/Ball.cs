@@ -37,6 +37,7 @@ public class Ball : MonoBehaviour {
 		rigidBody.velocity = Vector3.zero;
 		rigidBody.angularVelocity = Vector3.zero;
 		transform.position = startPosition;
+		transform.rotation = Quaternion.identity;
 	}
 	
 	// Update is called once per frame

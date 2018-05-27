@@ -15,8 +15,10 @@ public class BallDragLaunch : MonoBehaviour {
 	}
 
 	public void DragStart (){
-		dragStart = Input.mousePosition;
-		startTime = Time.time;
+		if( ! ball.launched){
+			dragStart = Input.mousePosition;
+			startTime = Time.time;	
+		}
 	}
 
 	public void DragEnd (){

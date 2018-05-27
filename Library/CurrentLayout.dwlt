@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 646
-  m_MinSize: {x: 508, y: 492}
+  m_MinSize: {x: 506, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 118
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 268
     height: 375
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -123,7 +123,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
     y: 0
     width: 1036
     height: 646
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 51
@@ -232,8 +232,8 @@ MonoBehaviour:
     y: 0
     width: 1036
     height: 375
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
   controlID: 52
 --- !u!114 &11
@@ -254,8 +254,8 @@ MonoBehaviour:
     y: 0
     width: 768
     height: 375
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -357,7 +357,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Will/Documents/repos/07. BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.3156953
+      duration: 0.3225582
       messages: 
       output: 
       stacktrace: 
@@ -368,7 +368,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.3069556
+      duration: 0.3152924
       messages: 
       output: 
       stacktrace: 
@@ -379,7 +379,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0206468
+      duration: 0.0203943
       messages: 
       output: 
       stacktrace: 
@@ -390,7 +390,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.0137893
+      duration: 0.0132876
       messages: 
       output: 
       stacktrace: 
@@ -401,7 +401,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0121328
+      duration: 0.0121735
       messages: 
       output: 
       stacktrace: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       name: T03Bowl28SpareReturnsEndTurn
       fullName: ActionMasterTest.T03Bowl28SpareReturnsEndTurn
       resultStatus: 1
-      duration: 0.0085885
+      duration: 0.0097634
       messages: 
       output: 
       stacktrace: 
@@ -423,7 +423,7 @@ MonoBehaviour:
       name: T04CheckResetAtStrikeInLastFrame
       fullName: ActionMasterTest.T04CheckResetAtStrikeInLastFrame
       resultStatus: 1
-      duration: 0.0090574
+      duration: 0.0110602
       messages: 
       output: 
       stacktrace: 
@@ -434,7 +434,7 @@ MonoBehaviour:
       name: T05CheckResetAtSpareInLastFrame
       fullName: ActionMasterTest.T05CheckResetAtSpareInLastFrame
       resultStatus: 1
-      duration: 0.0123836
+      duration: 0.0120967
       messages: 
       output: 
       stacktrace: 
@@ -445,7 +445,7 @@ MonoBehaviour:
       name: T06YoutubeRollsEndInEndGame
       fullName: ActionMasterTest.T06YoutubeRollsEndInEndGame
       resultStatus: 1
-      duration: 0.0114657
+      duration: 0.0097906
       messages: 
       output: 
       stacktrace: 
@@ -456,7 +456,7 @@ MonoBehaviour:
       name: T07GameEndsAtBowl20
       fullName: ActionMasterTest.T07GameEndsAtBowl20
       resultStatus: 1
-      duration: 0.0090713
+      duration: 0.0111609
       messages: 
       output: 
       stacktrace: 
@@ -467,7 +467,7 @@ MonoBehaviour:
       name: T08DarylBowl20Test
       fullName: ActionMasterTest.T08DarylBowl20Test
       resultStatus: 1
-      duration: 0.0096496
+      duration: 0.0121583
       messages: 
       output: 
       stacktrace: 
@@ -478,7 +478,7 @@ MonoBehaviour:
       name: T09BensBowl20Test
       fullName: ActionMasterTest.T09BensBowl20Test
       resultStatus: 1
-      duration: 0.0094408
+      duration: 0.0121186
       messages: 
       output: 
       stacktrace: 
@@ -489,7 +489,7 @@ MonoBehaviour:
       name: T10NathanBowlIndexTest
       fullName: ActionMasterTest.T10NathanBowlIndexTest
       resultStatus: 1
-      duration: 0.0091458
+      duration: 0.0123336
       messages: 
       output: 
       stacktrace: 
@@ -500,7 +500,7 @@ MonoBehaviour:
       name: T11DondiTenthFrameTurkey
       fullName: ActionMasterTest.T11DondiTenthFrameTurkey
       resultStatus: 1
-      duration: 0.0118415
+      duration: 0.0092235
       messages: 
       output: 
       stacktrace: 
@@ -511,19 +511,19 @@ MonoBehaviour:
       name: T12ZeroOneGivesEndTurn
       fullName: ActionMasterTest.T12ZeroOneGivesEndTurn
       resultStatus: 1
-      duration: 0.0076648
+      duration: 0.0118236
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T10NathanBowlIndexTest (0.009s)
+    m_ResultText: T02Bowl8ReturnsTidy (0.012s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c47aac09
-      m_LastClickedID: 162298564
+      m_SelectedIDs: aed85320
+      m_LastClickedID: 542365870
       m_ExpandedIDs: 45f3aaa785565103ef90d43e9dd95f51ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -656,19 +656,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Will\Documents\repos\07. BowlMaster
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: f4240000
-    m_LastClickedID: 9460
-    m_ExpandedIDs: 00000000ba240000482500005a25000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 98250000
+    m_LastClickedID: 9624
+    m_ExpandedIDs: 00000000bc24000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,7 +696,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba240000482500005a250000
+    m_ExpandedIDs: 00000000bc2400004a2500005c250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -812,9 +812,9 @@ MonoBehaviour:
     height: 354
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c500000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 923dffffe4fbffff0000000004260000
+    m_ExpandedIDs: a4c1feff46c5fefffcc7feff3ecbfeff44cefeffccd1feffb0d4feff0cd9feff80dcfeffe4dffeffece2feffdce6feffe2e9feff34eefeff8af1feffbaf3feff1cf6feff2cf9feff88fbfeff10fefeff1603ffffe2fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -868,9 +868,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1927.8422, y: -40.212727, z: 33.478996}
+    m_Target: {x: 2019.541, y: -592.6571, z: 2339.52}
     speed: 2
-    m_Value: {x: 1927.8422, y: -40.212727, z: 33.478996}
+    m_Value: {x: 2019.541, y: -592.6571, z: 2339.52}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -893,13 +893,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.011915176, y: 0.70530885, z: -0.01185768, w: 0.7087009}
+    m_Target: {x: 0.090747856, y: 0.6698998, z: -0.08302693, w: 0.73219234}
     speed: 2
-    m_Value: {x: 0.011915176, y: 0.70530885, z: -0.01185768, w: 0.7087009}
+    m_Value: {x: 0.090747856, y: 0.6698998, z: -0.08302693, w: 0.73219234}
   m_Size:
-    m_Target: 1995.021
+    m_Target: 2854.8276
     speed: 2
-    m_Value: 1995.021
+    m_Value: 2854.8276
   m_Ortho:
     m_Target: 0
     speed: 2
