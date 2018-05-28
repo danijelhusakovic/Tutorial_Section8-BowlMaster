@@ -20,7 +20,7 @@ public class ActionMaster {
 		return currentAction;
 	}
 
-	public Action Bowl (int pins){ // TODO: set to private
+	private Action Bowl (int pins){ // TODO: set to private
 		if(pins < 0 || pins > 10){ throw new UnityException ("Invalid number of pins"); }
 
 		bowls [bowl - 1] = pins;

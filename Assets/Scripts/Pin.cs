@@ -41,6 +41,7 @@ public class Pin : MonoBehaviour {
 		if(IsStanding()){
 			transform.Translate(new Vector3(0f, distanceToRaise, 0f), Space.World);
 			rigidBody.useGravity = false; // so the pins don't automatically start falling once up.
+			transform.rotation = Quaternion.Euler (270f, 0f, 0f);
 		}
 	}
 
