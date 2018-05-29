@@ -74,7 +74,7 @@ public class ScoreMasterTest {
 		int[] frames = { 3,   7};
 		Assert.AreEqual (frames.ToList(), ScoreMaster.ScoreFrames (rolls.ToList()));
 	}
-/*
+
 	[Test]
 	public void T10SpareBonus () {
 		int[] rolls = {1,2, 3,5, 5,5, 3,3};
@@ -151,7 +151,7 @@ public class ScoreMasterTest {
 		int[] totalS = {  2,   4,   6,   8,  10,  12,  14,  16,  18,    35};
 		Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 	}
-	
+
 	[Test]
 	public void T21StrikeInLastFrame () {
 		int[] rolls = { 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 10,2,3};
@@ -212,5 +212,5 @@ public class ScoreMasterTest {
 		int[] totalS = {30, 60, 89,108, 117,147,177,207,236,    256};
 		Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 	}
-	*/
+
 }
