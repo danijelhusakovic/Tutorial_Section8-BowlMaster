@@ -60,6 +60,7 @@ public class PinCounter : MonoBehaviour {
 		int pinFall = lastSettledCount - standing;
 		lastSettledCount = standing;
 		gameManager.Bowl (pinFall);
+
 		lastStandingCount = -1; // Indicates pins have settled, and ball not back in box (?)
 		ballOutOfPlay = false;
 		standingDisplay.color = Color.green;

@@ -37,13 +37,11 @@ public class BallDragLaunch : MonoBehaviour {
 
 	public void MoveStart(float amount){
 		if( ! ball.launched){
-			ball.transform.position += new Vector3 (amount, 0f, 0f);
-			if(ball.transform.position.x < -30){
-				ball.transform.position = new Vector3 (-30f ,ball.transform.position.y, ball.transform.position.z);
-			}
-			if (ball.transform.position.x > 30) {
-				ball.transform.position = new Vector3 (30f, ball.transform.position.y, ball.transform.position.z);
-			}
+			float xPos = Mathf.Clamp (ball.transform.position.x + amount, -30f, 30f);
+			float yPos = ball.transform.position.y;
+			float zPos = ball.transform.position.z;
+
+			ball.transform.position = new Vector3 (xPos, yPos, zPos);
 		}
 
 	}

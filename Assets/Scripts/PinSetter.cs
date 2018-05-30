@@ -12,7 +12,7 @@ public class PinSetter : MonoBehaviour {
 	private PinCounter pinCounter;
 	private Animator animator;
 
-	ActionMaster actionMaster = new ActionMaster(); // we need it here as we want only one instance
+	ActionMasterOld actionMaster = new ActionMasterOld(); // we need it here as we want only one instance
 															//(not creating always new in PinsHaveSettled ())
 
 	// Use this for initialization
@@ -43,16 +43,16 @@ public class PinSetter : MonoBehaviour {
 		newPins.transform.position += new Vector3(0f, 50f, 0f);
 	}
 
-	public void PerformAction(ActionMaster.Action action){
-		if(action == ActionMaster.Action.Tidy){
+	public void PerformAction(ActionMasterOld.Action action){
+		if(action == ActionMasterOld.Action.Tidy){
 			animator.SetTrigger ("tidyTrigger");
-		} else if (action == ActionMaster.Action.EndTurn){
+		} else if (action == ActionMasterOld.Action.EndTurn){
 			animator.SetTrigger ("resetTrigger");
 			pinCounter.Reset ();
-		} else if (action == ActionMaster.Action.Reset){
+		} else if (action == ActionMasterOld.Action.Reset){
 			animator.SetTrigger ("resetTrigger");
 			pinCounter.Reset ();
-		} else if (action == ActionMaster.Action.EndGame){
+		} else if (action == ActionMasterOld.Action.EndGame){
 			throw new UnityException ("Don't know how to handle end game yet.");
 		}
 	}
